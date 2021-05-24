@@ -2,7 +2,10 @@ This repository aims to provide modules and notebooks for conversion of reports 
 
 Following is the list of notebooks and their intended function:
 
+
+-------
 *1*
+-------
 E01 Read_PPEnergy.ipynb 
 -- reads the daily energy consumption of power plants across India (downloaded from https://posoco.in/reports/daily-reports/ using download manager) into .csv format.
 -- INPUT: assign the folder path of the downloaded .pdf reports to pdf2csv/helpers/fn_readPOSOCOpdf.py (Line 125). e.g.  "Data", "Emission", "DailyPower", "daily*.pdf". 
